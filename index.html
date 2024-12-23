@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.2/howler.core.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>caicolasbrisonho</title>
+</head>
+<body>
+    <div class="imagem" id="imagem1">
+        <img src="caique1.png">
+    </div>
+    <div class="imagem" id="imagem2">
+        <img src="caique2.jpeg">
+    </div>
+    <div class="imagem" id="imagem3">
+        <img src="caique3.jpeg">
+    </div>
+    <script>
+            var timer, sound; 
+            sound = new Howl({
+            src: ['audio.mp3']
+            });
+            setInterval(function(){
+            sound.play();
+            },1000);
+
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    position: relative;
+    background-color: #f700ff;
+}
+
+.imagem {
+    position: absolute;
+    animation: girar 5s linear infinite;
+}
+
+.imagem img {
+    width: 470px; 
+    height: 950px;
+}
+
+@keyframes girar {
+    0% {
+        transform: rotate(0deg); 
+    }
+    100% {
+        transform: rotate(360deg); 
+    }
+}
+
+#imagem1 {
+    top: 10%;   
+    left: 10%;  
+}
+
+#imagem2 {
+    top: 40%;   
+    left: 40%;  
+    transform: translate(-50%, -50%); 
+}
+
+#imagem3 {
+    bottom: 10%;  
+    right: 10%;   
+}
